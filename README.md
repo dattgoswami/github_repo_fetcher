@@ -33,4 +33,4 @@ Note: Make sure to replace `'ACCESS_TOKEN'` with your GitHub personal access tok
 - `write_repositories_to_csv(repositories, filename)`: Writes the repository data to a CSV file.
 - `main()`: The main entry point of the script.
 
-The script provides flexibility to fetch either starred repositories or regular repositories based on the user's choice. The generated CSV file will contain the grouped repositories by primary language.
+The script provides flexibility to fetch either starred repositories or regular repositories based on the user's choice. The generated CSV file (`starred_repositories.csv` or `repositories.csv`) will contain the grouped repositories by primary language.
